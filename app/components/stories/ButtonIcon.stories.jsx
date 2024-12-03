@@ -1,6 +1,6 @@
 import React from "react";
 
-import ChevronRightIcon from "/public/assets/jsxicons/chevron-right"; // Adjust this import to your actual icon path
+import ChevronRightIcon from "/public/assets/jsxicons/chevron-right";
 import { ButtonIcon } from "../shared/ButtonIcon";
 
 export default {
