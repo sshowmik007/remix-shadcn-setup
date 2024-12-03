@@ -26411,7 +26411,7 @@ var LineChart = generateCategoricalChart({
   formatAxisMap
 });
 
-// app/routes/analytics.tsx
+// app/routes/analytics.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
@@ -26419,7 +26419,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app\\\\routes\\\\analytics.tsx"' + id);
+    window.$RefreshRuntime$.register(type, '"app\\\\routes\\\\analytics.jsx"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -26428,9 +26428,9 @@ var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app\\routes\\analytics.tsx"
+    "app\\routes\\analytics.jsx"
   );
-  import.meta.hot.lastModified = "1733167440000";
+  import.meta.hot.lastModified = "1733191458407.3086";
 }
 var meta = () => {
   return [{
@@ -26468,132 +26468,132 @@ var data = [{
 function Analytics() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(DashboardLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "space-y-6", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "text-3xl font-bold", children: "Analytics" }, void 0, false, {
-      fileName: "app/routes/analytics.tsx",
+      fileName: "app/routes/analytics.jsx",
       lineNumber: 60,
-      columnNumber: 9
+      columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "grid gap-6 md:grid-cols-2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Card, { className: "p-6", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { className: "text-lg font-semibold mb-4", children: "User Growth" }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 64,
-          columnNumber: 13
+          columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "h-[300px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ResponsiveContainer, { width: "100%", height: "100%", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(LineChart, { data, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(CartesianGrid, { strokeDasharray: "3 3" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 68,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(XAxis, { dataKey: "name" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 69,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(YAxis, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 70,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Tooltip, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 71,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Legend, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 72,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Line, { type: "monotone", dataKey: "users", stroke: "#8884d8" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 73,
-            columnNumber: 19
+            columnNumber: 10
           }, this)
         ] }, void 0, true, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 67,
-          columnNumber: 17
+          columnNumber: 9
         }, this) }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 66,
-          columnNumber: 15
+          columnNumber: 8
         }, this) }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 65,
-          columnNumber: 13
+          columnNumber: 7
         }, this)
       ] }, void 0, true, {
-        fileName: "app/routes/analytics.tsx",
+        fileName: "app/routes/analytics.jsx",
         lineNumber: 63,
-        columnNumber: 11
+        columnNumber: 6
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Card, { className: "p-6", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { className: "text-lg font-semibold mb-4", children: "Revenue" }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 80,
-          columnNumber: 13
+          columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "h-[300px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ResponsiveContainer, { width: "100%", height: "100%", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(LineChart, { data, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(CartesianGrid, { strokeDasharray: "3 3" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 84,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(XAxis, { dataKey: "name" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 85,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(YAxis, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 86,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Tooltip, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 87,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Legend, {}, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 88,
-            columnNumber: 19
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Line, { type: "monotone", dataKey: "revenue", stroke: "#82ca9d" }, void 0, false, {
-            fileName: "app/routes/analytics.tsx",
+            fileName: "app/routes/analytics.jsx",
             lineNumber: 89,
-            columnNumber: 19
+            columnNumber: 10
           }, this)
         ] }, void 0, true, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 83,
-          columnNumber: 17
+          columnNumber: 9
         }, this) }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 82,
-          columnNumber: 15
+          columnNumber: 8
         }, this) }, void 0, false, {
-          fileName: "app/routes/analytics.tsx",
+          fileName: "app/routes/analytics.jsx",
           lineNumber: 81,
-          columnNumber: 13
+          columnNumber: 7
         }, this)
       ] }, void 0, true, {
-        fileName: "app/routes/analytics.tsx",
+        fileName: "app/routes/analytics.jsx",
         lineNumber: 79,
-        columnNumber: 11
+        columnNumber: 6
       }, this)
     ] }, void 0, true, {
-      fileName: "app/routes/analytics.tsx",
+      fileName: "app/routes/analytics.jsx",
       lineNumber: 62,
-      columnNumber: 9
+      columnNumber: 5
     }, this)
   ] }, void 0, true, {
-    fileName: "app/routes/analytics.tsx",
+    fileName: "app/routes/analytics.jsx",
     lineNumber: 59,
-    columnNumber: 7
+    columnNumber: 4
   }, this) }, void 0, false, {
-    fileName: "app/routes/analytics.tsx",
+    fileName: "app/routes/analytics.jsx",
     lineNumber: 58,
     columnNumber: 10
   }, this);
@@ -26640,4 +26640,4 @@ object-assign/index.js:
   @license MIT
   *)
 */
-//# sourceMappingURL=/build/routes/analytics-TQIUOV5D.js.map
+//# sourceMappingURL=/build/routes/analytics-2GMPFYUY.js.map

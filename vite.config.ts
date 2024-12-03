@@ -8,5 +8,6 @@ export default defineConfig({
     alias: {
       '~': path.resolve(__dirname, './app'),
     },
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
 });

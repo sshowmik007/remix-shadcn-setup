@@ -20,6 +20,6 @@
       "~/*": ["app/*"]
     }
   },
-  "include": ["app"],
+  "include": ["app", "app/**/*.jsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

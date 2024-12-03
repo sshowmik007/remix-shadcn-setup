@@ -123,7 +123,7 @@ __export(root_exports, {
 });
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-NX5C7QTO.css";
+var cssBundleHref = "/build/css-bundle-H333GRT2.css";
 
 // app/root.tsx
 import {
@@ -199,7 +199,7 @@ function App() {
   }, this);
 }
 
-// app/routes/analytics.tsx
+// app/routes/analytics.jsx
 var analytics_exports = {};
 __export(analytics_exports, {
   default: () => Analytics,
@@ -602,8 +602,17 @@ var CardFooter = React3.forwardRef(({ className, ...props }, ref) => /* @__PURE_
 ));
 CardFooter.displayName = "CardFooter";
 
-// app/routes/analytics.tsx
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+// app/routes/analytics.jsx
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
+} from "recharts";
 import { jsxDEV as jsxDEV8 } from "react/jsx-dev-runtime";
 var meta = () => [
   { title: "Analytics | Dashboard" },
@@ -619,134 +628,134 @@ var meta = () => [
 function Analytics() {
   return /* @__PURE__ */ jsxDEV8(DashboardLayout, { children: /* @__PURE__ */ jsxDEV8("div", { className: "space-y-6", children: [
     /* @__PURE__ */ jsxDEV8("h1", { className: "text-3xl font-bold", children: "Analytics" }, void 0, !1, {
-      fileName: "app/routes/analytics.tsx",
-      lineNumber: 26,
-      columnNumber: 9
+      fileName: "app/routes/analytics.jsx",
+      lineNumber: 34,
+      columnNumber: 5
     }, this),
     /* @__PURE__ */ jsxDEV8("div", { className: "grid gap-6 md:grid-cols-2", children: [
       /* @__PURE__ */ jsxDEV8(Card, { className: "p-6", children: [
         /* @__PURE__ */ jsxDEV8("h2", { className: "text-lg font-semibold mb-4", children: "User Growth" }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 30,
-          columnNumber: 13
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 38,
+          columnNumber: 7
         }, this),
         /* @__PURE__ */ jsxDEV8("div", { className: "h-[300px]", children: /* @__PURE__ */ jsxDEV8(ResponsiveContainer, { width: "100%", height: "100%", children: /* @__PURE__ */ jsxDEV8(LineChart, { data, children: [
           /* @__PURE__ */ jsxDEV8(CartesianGrid, { strokeDasharray: "3 3" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 34,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 42,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(XAxis, { dataKey: "name" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 35,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 43,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(YAxis, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 36,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 44,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Tooltip, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 37,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 45,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Legend, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 38,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 46,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Line, { type: "monotone", dataKey: "users", stroke: "#8884d8" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 39,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 47,
+            columnNumber: 10
           }, this)
         ] }, void 0, !0, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 33,
-          columnNumber: 17
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 41,
+          columnNumber: 9
         }, this) }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 32,
-          columnNumber: 15
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 40,
+          columnNumber: 8
         }, this) }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 31,
-          columnNumber: 13
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 39,
+          columnNumber: 7
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/analytics.tsx",
-        lineNumber: 29,
-        columnNumber: 11
+        fileName: "app/routes/analytics.jsx",
+        lineNumber: 37,
+        columnNumber: 6
       }, this),
       /* @__PURE__ */ jsxDEV8(Card, { className: "p-6", children: [
         /* @__PURE__ */ jsxDEV8("h2", { className: "text-lg font-semibold mb-4", children: "Revenue" }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 46,
-          columnNumber: 13
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 54,
+          columnNumber: 7
         }, this),
         /* @__PURE__ */ jsxDEV8("div", { className: "h-[300px]", children: /* @__PURE__ */ jsxDEV8(ResponsiveContainer, { width: "100%", height: "100%", children: /* @__PURE__ */ jsxDEV8(LineChart, { data, children: [
           /* @__PURE__ */ jsxDEV8(CartesianGrid, { strokeDasharray: "3 3" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 50,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 58,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(XAxis, { dataKey: "name" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 51,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 59,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(YAxis, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 52,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 60,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Tooltip, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 53,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 61,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Legend, {}, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 54,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 62,
+            columnNumber: 10
           }, this),
           /* @__PURE__ */ jsxDEV8(Line, { type: "monotone", dataKey: "revenue", stroke: "#82ca9d" }, void 0, !1, {
-            fileName: "app/routes/analytics.tsx",
-            lineNumber: 55,
-            columnNumber: 19
+            fileName: "app/routes/analytics.jsx",
+            lineNumber: 63,
+            columnNumber: 10
           }, this)
         ] }, void 0, !0, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 49,
-          columnNumber: 17
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 57,
+          columnNumber: 9
         }, this) }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 48,
-          columnNumber: 15
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 56,
+          columnNumber: 8
         }, this) }, void 0, !1, {
-          fileName: "app/routes/analytics.tsx",
-          lineNumber: 47,
-          columnNumber: 13
+          fileName: "app/routes/analytics.jsx",
+          lineNumber: 55,
+          columnNumber: 7
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/analytics.tsx",
-        lineNumber: 45,
-        columnNumber: 11
+        fileName: "app/routes/analytics.jsx",
+        lineNumber: 53,
+        columnNumber: 6
       }, this)
     ] }, void 0, !0, {
-      fileName: "app/routes/analytics.tsx",
-      lineNumber: 28,
-      columnNumber: 9
+      fileName: "app/routes/analytics.jsx",
+      lineNumber: 36,
+      columnNumber: 5
     }, this)
   ] }, void 0, !0, {
-    fileName: "app/routes/analytics.tsx",
-    lineNumber: 25,
-    columnNumber: 7
+    fileName: "app/routes/analytics.jsx",
+    lineNumber: 33,
+    columnNumber: 4
   }, this) }, void 0, !1, {
-    fileName: "app/routes/analytics.tsx",
-    lineNumber: 24,
-    columnNumber: 5
+    fileName: "app/routes/analytics.jsx",
+    lineNumber: 32,
+    columnNumber: 3
   }, this);
 }
 
@@ -906,7 +915,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-BYKISWCJ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-DXPQB5FH.js", "/build/_shared/chunk-ZHDSOX3L.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YEWONIEG.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-DZBWQYSP.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/analytics": { id: "routes/analytics", parentId: "root", path: "analytics", index: void 0, caseSensitive: void 0, module: "/build/routes/analytics-TQIUOV5D.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "d898b9a9", hmr: { runtime: "/build/_shared\\chunk-ZHDSOX3L.js", timestamp: 1733189327678 }, url: "/build/manifest-D898B9A9.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-BYKISWCJ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-DXPQB5FH.js", "/build/_shared/chunk-ZHDSOX3L.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AT6N2GNR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-DZBWQYSP.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/analytics": { id: "routes/analytics", parentId: "root", path: "analytics", index: void 0, caseSensitive: void 0, module: "/build/routes/analytics-2GMPFYUY.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "479d7bd5", hmr: { runtime: "/build/_shared\\chunk-ZHDSOX3L.js", timestamp: 1733191460180 }, url: "/build/manifest-479D7BD5.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, v3_routeConfig: !1, v3_singleFetch: !1, v3_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {

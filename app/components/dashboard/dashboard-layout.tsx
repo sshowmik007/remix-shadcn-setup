@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavBar } from './nav-bar';
 
+
 interface DashboardLayoutProps {
   children: React.ReactNode;
 }

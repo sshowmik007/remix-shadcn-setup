@@ -20,7 +20,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-NX5C7QTO.css";
+var cssBundleHref = "/build/css-bundle-H333GRT2.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -115,4 +115,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-YEWONIEG.js.map
+//# sourceMappingURL=/build/root-AT6N2GNR.js.map
