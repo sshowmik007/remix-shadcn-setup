@@ -487,17 +487,17 @@ import { jsxDEV as jsxDEV6 } from "react/jsx-dev-runtime";
 var DashboardLayout = ({ children }) => /* @__PURE__ */ jsxDEV6("div", { className: "min-h-screen bg-background", children: [
   /* @__PURE__ */ jsxDEV6(NavBar, {}, void 0, !1, {
     fileName: "app/components/dashboard/dashboard-layout.tsx",
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 7
   }, this),
   /* @__PURE__ */ jsxDEV6("main", { className: "max-w-7xl mx-auto py-6 sm:px-6 lg:px-8", children }, void 0, !1, {
     fileName: "app/components/dashboard/dashboard-layout.tsx",
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
   fileName: "app/components/dashboard/dashboard-layout.tsx",
-  lineNumber: 10,
+  lineNumber: 11,
   columnNumber: 5
 }, this);
 
@@ -915,7 +915,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-BYKISWCJ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-DXPQB5FH.js", "/build/_shared/chunk-ZHDSOX3L.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AT6N2GNR.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-DZBWQYSP.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/analytics": { id: "routes/analytics", parentId: "root", path: "analytics", index: void 0, caseSensitive: void 0, module: "/build/routes/analytics-2GMPFYUY.js", imports: ["/build/_shared/chunk-QM6OJ7FG.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "479d7bd5", hmr: { runtime: "/build/_shared\\chunk-ZHDSOX3L.js", timestamp: 1733191460180 }, url: "/build/manifest-479D7BD5.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-BYKISWCJ.js", imports: ["/build/_shared/chunk-O4BRYNJ4.js", "/build/_shared/chunk-DXPQB5FH.js", "/build/_shared/chunk-ZHDSOX3L.js", "/build/_shared/chunk-XGOTYLZ5.js", "/build/_shared/chunk-U4FRFQSK.js", "/build/_shared/chunk-7M6SC7J5.js", "/build/_shared/chunk-UWV35TSL.js", "/build/_shared/chunk-PNG5AS42.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-IIDCUGC3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-34B34ZT6.js", imports: ["/build/_shared/chunk-7F57IT66.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/analytics": { id: "routes/analytics", parentId: "root", path: "analytics", index: void 0, caseSensitive: void 0, module: "/build/routes/analytics-KEGI7BLA.js", imports: ["/build/_shared/chunk-7F57IT66.js", "/build/_shared/chunk-B43JI2TA.js"], hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "49fce9aa", hmr: { runtime: "/build/_shared\\chunk-ZHDSOX3L.js", timestamp: 1733191466729 }, url: "/build/manifest-49FCE9AA.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "development", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1, v3_throwAbortReason: !1, v3_routeConfig: !1, v3_singleFetch: !1, v3_lazyRouteDiscovery: !1, unstable_optimizeDeps: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {
