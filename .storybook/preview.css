@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Aeonik-Regular';
+    src: url('/public/assets/fonts/Aeonik-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Aeonik-Bold';
+    src: url('/public/assets/fonts/Aeonik-Bold.woff') format('woff');
+}
+
+body {
+    background-color: #333333;
+}
